@@ -49,7 +49,7 @@ const App = () => {
     //SHUFFLING PART
     const shuffled = shuffledArray(cardValues)
 
-    const finalCards = cardValues.map((value, index) => (
+    const finalCards = shuffled.map((value, index) => (
       {
         id: index,
         value: value,
